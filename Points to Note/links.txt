@@ -1,0 +1,6 @@
+[1] http://profiles.murdoch.edu.au/myprofile/david-murray/files/2015/05/Measuring_the_reliability_of_80211_wifi.pdf
+
+[2] http://www.isi.edu/nsnam/ns/index.html
+[3] http://hpds.ee.ncku.edu.tw/∼smallko/ns2/ns2.html
+
+[4] https://www.researchgate.net/publication/220405926_IEEE_80211b_Ad_Hoc_Networks_Performance_Measurements

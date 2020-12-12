@@ -1,0 +1,27 @@
+1) Check source code to be modified or added, maybe a backup is necessary for future diff.
+
+Action		File to be modified
+
+Modify		ns-allinone-2.33\Makefile
+
+Modify		ns-allinone-2.33\dei80211mr-1.1.4\src\InitTCL.cc
+
+Modify		ns-allinone-2.33\ns-2.33\indep-utils\webtrace-conv\dec\my-endian.h
+
+Modify		ns-allinone-2.33\ns-2.33\tcl\lib\ns-mobilenode.tcl
+
+Modify		ns-allinone-2.33\ns-2.33\tcl\lib\ns-default.tcl
+
+Modify		ns-allinone-2.33\ns-2.33\tcl\lan\ns-mac-802-11.tcl
+
+Modify		ns-allinone-2.33\ns-2.33\tcl\lan\ns-mac.tcl
+
+
+
+Add		ns-allinone-2.33\ns-2.33\mac\mac-802-11new.cc
+
+Add		ns-allinone-2.33\ns-2.33\mac\mac-802-11new.h
+
+Add		ns-allinone-2.33\ns-2.33\mac\mac-timersnew.cc
+
+Add		ns-allinone-2.33\ns-2.33\mac\mac-timersnew.h

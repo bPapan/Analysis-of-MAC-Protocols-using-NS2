@@ -1,0 +1,37 @@
+-----------------------  Preamble   ----------------------------------
+
+The preamble is a sequence of symbols which are sent to synchronise the sending and receiving radio signals.
+
+-----------------------  Slot Time  ----------------------------------
+
+In Ethernet and its Carrier Sense Multiple Access/Collision Detect (CSMA/CD) approach to managing which device can use the communication link next, slot time is the amount of time a device waits after a collision before retransmitting.
+
+
+
+-----------------------  SIFS ----------------------------------------
+
+Short Interframe Space (SIFS), is the amount of time in microseconds required for a wireless interface to process a received frame and to respond with a response frame. It is the difference in time between the first symbol of the response frame in the air and the last symbol of the received frame in the air. A SIFS time consists of the delay in receiver RF, PLCP delay and the MAC processing delay, which depends on the physical layer used. 
+
+
+
+-----------------------  PIFS ----------------------------------------
+
+PCF Interframe Space (PIFS) is one of the interframe space used in IEEE 802.11 based Wireless LANs. PCF enabled access point wait for PIFS duration rather than DIFS to occupy the wireless medium. PIFS duration is less than DIFS and greater than SIFS (DIFS > PIFS > SIFS). Hence AP always has more priority to access the medium. 
+
+PIFS = SIFS + Slot time 
+
+
+-----------------------  DIFS ----------------------------------------
+
+The IEEE 802.11 family of standards describe the DCF protocol, which controls access to the physical medium. A station must sense the status of the wireless medium before transmitting. If it finds that the medium is continuously idle for DCF Interframe Space (DIFS) duration, it is then permitted to transmit a frame. If the channel is found busy during the DIFS interval, the station should defer its transmission.
+
+DIFS = SIFS + (2 * Slot time)
+
+
+
+----------------------------------------------------------------------
+Distributed coordination function (DCF) is the fundamental MAC technique of the IEEE 802.11 based WLAN standard. DCF employs a CSMA/CA with binary exponential backoff algorithm.
+
+Point coordination function (PCF) is a media access control (MAC) technique used in IEEE 802.11 based WLANs. It resides in a point coordinator also known as access point (AP), to coordinate the communication within the network. The AP waits for PIFS duration rather than DIFS duration to grasp the channel. PIFS is less than DIFS duration and hence the point coordinator always has the priority to access the channel.
+
+The PCF is located directly above the distributed coordination function (DCF), in the IEEE 802.11 MAC Architecture. 

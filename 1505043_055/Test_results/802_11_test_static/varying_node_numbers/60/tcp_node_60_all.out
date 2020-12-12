@@ -1,0 +1,8 @@
+throughput: 601850.55 delay: 0.62814 send packet: 2032.00 received packet: 1863.00 drop packet: 107.00 
+delivery ratio: 91.68 drop ratio: 5.27 time: 25.98359 total_energy: 2788.02300 
+energy_per_bit: 0.00018 energy_per_byte: 0.00143 energy_per_packet: 1.49652 total_retrnsmit: 1979 
+
+throughput: 601850.55 delay: 0.62814 send packet: 2032.00 received packet: 1863.00 drop packet: 107.00 
+delivery ratio: 91.68 drop ratio: 5.27 time: 25.98359 total_energy: 2788.02300 
+energy_per_bit: 0.00018 energy_per_byte: 0.00143 energy_per_packet: 1.49652 total_retrnsmit: 1979 
+
